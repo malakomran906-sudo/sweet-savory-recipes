@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet & Savory Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Sweet & Savory</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('background.avif') center/cover no-repeat;">
         <h1>Sweet & Savory Recipes</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <p>Discover the joy of cooking with our curated collection of delicious meals and delightful desserts.</p>
+        <div class="btn-container">
+            <a href="recipes.html" class="btn btn-primary">Get Started</a>
+            <a href="recipes.html" class="btn btn-secondary">Popular Recipes</a>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Welcome to our Recipe Collection</h2>
-            <p>Discover delicious sweet and savory recipes for every occasion.</p>
-        </section>
-    </main>
-
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Sweet & Savory Recipes</p>
+        <p>&copy; 2025 Sweet & Savory Recipes. Made with love.</p>
     </footer>
+
 </body>
 </html>
